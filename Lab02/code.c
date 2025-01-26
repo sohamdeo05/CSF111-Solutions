@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#define TOLERANCE 0.00001
-
+#define TOLERANCE 0.00001 
 //Can take TOLERANCE to be 1e-6 to be more accurate.
 
 
