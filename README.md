@@ -1,1 +1,1 @@
-```Lab-XX.c``` has the original file which contains the task to be performed, ```LabXX_soln.c``` file has the completed answer. This is only for reference please do not duplicate.
+```Lab-XX.c``` has the original file which contains the task to be performed, ```LabXX_soln.c``` file has the completed answer. This is only for reference please do not duplicate. For evaluative labs, the extra functions given are solved in ```LabXX_soln_final.c```.
