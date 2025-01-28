@@ -66,7 +66,7 @@ int triangleType(int x1, int y1, int x2, int y2, int x3, int y3)
         {
             return 1;
         }
-        else if(2*pow(side1, 2) == pow(side3, 2))
+        else if(approximatelyEqual(2*pow(side1, 2), pow(side3, 2))
         {
             return 2;
         }
@@ -78,7 +78,7 @@ int triangleType(int x1, int y1, int x2, int y2, int x3, int y3)
 
     else if (approximatelyEqual(side2, side3))
     {
-        if(2*pow(side2, 2) == pow(side1, 2))
+        if(approximatelyEqual(2*pow(side2, 2), pow(side1, 2))
         {
             return 2;
         }
@@ -89,7 +89,7 @@ int triangleType(int x1, int y1, int x2, int y2, int x3, int y3)
     }
     else if (approximatelyEqual(side1, side3))
     {
-        if(2*pow(side1, 2) == pow(side2, 2))
+        if(approximatelyEqual(2*pow(side1, 2), pow(side2, 2))
         {
             return 2;
         }
