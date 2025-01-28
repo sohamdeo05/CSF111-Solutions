@@ -26,6 +26,14 @@ int validTriangle(double side1, double side2, double side3)
             {
                 return 1;
             }
+            else
+            {
+                return 0;
+            }
+        }
+        else
+        {
+            return 0;
         }
     }
     else
@@ -80,15 +88,15 @@ int triangleType(int x1, int y1, int x2, int y2, int x3, int y3)
         }
     }
 
-    else if (approximatelyEqual((pow(side1, 2) + pow(side2, 2)), pow(side3, 2))
+    else if (approximatelyEqual((pow(side1, 2) + pow(side2, 2)), pow(side3, 2)))
     {
         return 4;
     }
-    else if (approximatelyEqual((pow(side2, 2) + pow(side3, 2)), pow(side1, 2))
+    else if (approximatelyEqual((pow(side2, 2) + pow(side3, 2)), pow(side1, 2)))
     {
         return 4;
     }
-    else if (approximatelyEqual((pow(side1, 2) + pow(side3, 2)), pow(side2, 2))
+    else if (approximatelyEqual((pow(side1, 2) + pow(side3, 2)), pow(side2, 2)))
     {
         return 4;
     }
