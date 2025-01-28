@@ -41,9 +41,9 @@ int triangleType(int x1, int y1, int x2, int y2, int x3, int y3)
     double side2 = calcLen(x2, y2, x3, y3);
     double side3 = calcLen(x3, y3, x1, y1);
 
-    if (side1 == side2)
+    if (approximatelyEqual(side1, side2))
     {
-        if (side2 == side3)
+        if (approximatelyEqual(side2, side3))
         {
             return 1;
         }
@@ -57,7 +57,7 @@ int triangleType(int x1, int y1, int x2, int y2, int x3, int y3)
         }
     }
     
-    else if (side2 == side3)
+    else if (approximatelyEqual(side2, side3))
     {
         if (approximatelyEqual(2*pow(side2, 2), pow(side1, 2)))
         {
@@ -68,7 +68,7 @@ int triangleType(int x1, int y1, int x2, int y2, int x3, int y3)
             return 3;
         }
     }
-    else if (side1 == side3)
+    else if (approximatelyEqual(side1, side3))
     {
         if (approximatelyEqual(2*pow(side1, 2), pow(side2, 2)))
         {
@@ -80,15 +80,15 @@ int triangleType(int x1, int y1, int x2, int y2, int x3, int y3)
         }
     }
 
-    else if (pow(side1, 2) + pow(side2, 2) == pow(side3, 2))
+    else if (approximatelyEqual((pow(side1, 2) + pow(side2, 2)), pow(side3, 2))
     {
         return 4;
     }
-    else if (pow(side2, 2) + pow(side3, 2) == pow(side1, 2))
+    else if (approximatelyEqual((pow(side2, 2) + pow(side3, 2)), pow(side1, 2))
     {
         return 4;
     }
-    else if (pow(side1, 2) + pow(side3, 2) == pow(side2, 2))
+    else if (approximatelyEqual((pow(side1, 2) + pow(side3, 2)), pow(side2, 2))
     {
         return 4;
     }
