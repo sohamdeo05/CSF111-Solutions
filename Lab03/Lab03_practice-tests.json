@@ -1,0 +1,28 @@
+{
+    "test_cases":[
+      {
+        "id":1,
+        "time_out":2,
+        "input":"3\n",
+        "output":"Enter the number of rows for the inverted triangle: \nWelcome, brave adventurer! Behold the Inverted triangle of Stars with 3 rows:\n***\n**\n*\nWell done, adventurer! The Inverted triangle is complete!\n"
+      },
+      {
+        "id":2,
+        "time_out":2,
+        "input":"4\n",
+        "output":"Enter the number of rows for the inverted triangle: \nWelcome, brave adventurer! Behold the Inverted triangle of Stars with 4 rows:\n****\n***\n**\n*\nWell done, adventurer! The Inverted triangle is complete!\n"
+      },
+      {
+        "id":3,
+        "time_out":2,
+        "input":"5\n",
+        "output":"Enter the number of rows for the inverted triangle: \nWelcome, brave adventurer! Behold the Inverted triangle of Stars with 5 rows:\n*****\n****\n***\n**\n*\nWell done, adventurer! The Inverted triangle is complete!\n"
+      },
+      {
+        "id":4,
+        "time_out":2,
+        "input":"6\n",
+        "output":"Enter the number of rows for the inverted triangle: \nWelcome, brave adventurer! Behold the Inverted triangle of Stars with 6 rows:\n******\n*****\n****\n***\n**\n*\nWell done, adventurer! The Inverted triangle is complete!\n"
+      }
+    ]
+  }
