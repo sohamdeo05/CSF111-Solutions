@@ -1,0 +1,76 @@
+{
+  "test_cases":[
+    {
+      "id":1,
+      "time_out":2,
+      "input":"0\n0\n5\n0\n10\n0\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle cannot be constructed.\n"
+    },
+    {
+      "id":2,
+      "time_out":2,
+      "input":"5\n0\n5\n0\n5\n0\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle cannot be constructed.\n"
+    },
+    {   
+      "id":3,
+      "time_out":2,
+      "input":"-11\n11\n-11\n0\n0\n0\n1\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating circumradius, 3. Second Largest Side\nThis is an isosceles right triangle.\n"
+    },
+    {   
+      "id":4,
+      "time_out":2,
+      "input":"-11\n0\n-11\n11\n-2\n0\n1\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating circumradius, 3. Second Largest Side\nThis is a right angled triangle.\n"
+    },
+    {   
+      "id":5,
+      "time_out":2,
+      "input":"-4\n0\n4\n0\n-3\n2\n1\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating circumradius, 3. Second Largest Side\nThis is a scalene triangle.\n"
+    },
+    {   
+      "id":6,
+      "time_out":2,
+      "input":"-8\n0\n-4\n-3\n0\n0\n1\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating circumradius, 3. Second Largest Side\nThis is an isosceles triangle.\n"
+    },
+    {
+      "id":7,
+      "time_out":2,
+      "input":"0\n2\n-4\n0\n4\n0\n2\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating circumradius, 3. Second Largest Side\nRadius of the circumcircle is lesser than equal to 5 or between 10 and 15 or greater than 20.\n"
+    },
+    {
+      "id":8,
+      "time_out":2,
+      "input":"-8\n0\n8\n0\n0\n8\n2\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating circumradius, 3. Second Largest Side\nRadius of the circumcircle is greater than 5 and lesser than 10.\n"
+    },
+    {
+      "id":9,
+      "time_out":2,
+      "input":"-17\n0\n0\n17\n17\n0\n2\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating circumradius, 3. Second Largest Side\nRadius of the circumcircle is greater than 15 and lesser than 20.\n"
+    },
+    {   
+      "id":10,
+      "time_out":2,
+      "input":"-4\n0\n4\n0\n-3\n2\n3\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating circumradius, 3. Second Largest Side\nSecond Largest Side: 7.28\n"
+    },
+    {   
+      "id":11,
+      "time_out":2,
+      "input":"-11\n0\n-11\n11\n-2\n0\n3\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating circumradius, 3. Second Largest Side\nSecond Largest Side: 11.00\n"
+    },
+    {   
+      "id":12,
+      "time_out":2,
+      "input":"-4\n0\n3\n0\n0\n4\n3\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating circumradius, 3. Second Largest Side\nSecond Largest Side: 5.66\n"
+    }
+  ]
+}
