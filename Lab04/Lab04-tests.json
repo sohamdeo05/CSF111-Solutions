@@ -1,0 +1,22 @@
+{
+  "test_cases": [
+    {
+      "id": 1,
+      "time_out": 2,
+      "input": "1\n+\n3\n",
+      "output": "1. repeat.  2. enumerate  3. double_enumerate\nEnter the number for the operation of your choice: Enter any printable character: Enter count: +++\n"
+    },
+    {
+      "id": 2,
+      "time_out": 2,
+      "input": "2\nc\n",
+      "output": "1. repeat.  2. enumerate  3. double_enumerate\nEnter the number for the operation of your choice: Enter a lower-case letter: cba\n"
+    },
+    {
+      "id": 3,
+      "time_out": 2,
+      "input": "3\nc\n",
+      "output": "1. repeat.  2. enumerate  3. double_enumerate\nEnter the number for the operation of your choice: Enter a lower-case letter: cbabc\n"
+    }
+  ]
+}
