@@ -1,0 +1,76 @@
+{
+  "test_cases":[
+    {
+      "id":1,
+      "time_out":2,
+      "input":"0\n0\n5\n0\n10\n0\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle cannot be constructed.\n"
+    },
+    {
+      "id":2,
+      "time_out":2,
+      "input":"5\n0\n5\n0\n5\n0\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle cannot be constructed.\n"
+    },
+    {   
+      "id":3,
+      "time_out":2,
+      "input":"-11\n11\n-11\n0\n0\n0\n1\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating inradius, 3. Minimum Side\nThis is an isosceles right triangle.\n"
+    },
+    {   
+      "id":4,
+      "time_out":2,
+      "input":"-11\n0\n-11\n11\n-2\n0\n1\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating inradius, 3. Minimum Side\nThis is a right angled triangle.\n"
+    },
+    {   
+      "id":5,
+      "time_out":2,
+      "input":"-4\n0\n4\n0\n-3\n2\n1\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating inradius, 3. Minimum Side\nThis is a scalene triangle.\n"
+    },
+    {   
+      "id":6,
+      "time_out":2,
+      "input":"-8\n0\n-4\n-3\n0\n0\n1\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating inradius, 3. Minimum Side\nThis is an isosceles triangle.\n"
+    },
+    {
+      "id":7,
+      "time_out":2,
+      "input":"0\n2\n-4\n0\n4\n0\n2\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating inradius, 3. Minimum Side\nRadius of the incircle is lesser than 5 or greater than 10.\n"
+    },
+    {
+      "id":8,
+      "time_out":2,
+      "input":"-20\n0\n20\n0\n0\n20\n2\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating inradius, 3. Minimum Side\nRadius of the incircle is greater than equal to 5 and lesser than equal to 10.\n"
+    },
+    {
+      "id":9,
+      "time_out":2,
+      "input":"-30\n0\n0\n30\n30\n0\n2\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating inradius, 3. Minimum Side\nRadius of the incircle is lesser than 5 or greater than 10.\n"
+    },
+    {   
+      "id":10,
+      "time_out":2,
+      "input":"-4\n0\n4\n0\n-3\n2\n3\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating inradius, 3. Minimum Side\nMinimum Side: 2.24\n"
+    },
+    {   
+      "id":11,
+      "time_out":2,
+      "input":"-11\n0\n-11\n11\n-2\n0\n3\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating inradius, 3. Minimum Side\nMinimum Side: 9.00\n"
+    },
+    {   
+      "id":12,
+      "time_out":2,
+      "input":"-4\n0\n3\n0\n0\n4\n3\n",
+      "output":"Enter 3 coordinates for 3 points:\nTriangle can be constructed.\nEnter option: 1. Getting Triangle Type, 2. Calculating inradius, 3. Minimum Side\nMinimum Side: 5.00\n"
+    }
+  ]
+}
