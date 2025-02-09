@@ -60,7 +60,7 @@ void enumerate(char c)
 
 void inverse_enumerate(char d, char l)
 {
-    if (d >= 97 && d <= l)
+    if (d <= l)
     {
         printf("%c", d);
         inverse_enumerate(d+1, l);
@@ -74,7 +74,6 @@ void inverse_enumerate(char d, char l)
 void double_enumerate(char c)
 {
     char l = c;
-    char d = c;
     if (c <= 122 && c >= 97)
     {
         enumerate(c);
