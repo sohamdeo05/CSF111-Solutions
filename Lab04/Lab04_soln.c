@@ -15,7 +15,7 @@
  */
 void repeat(char c, int count)
 {
-    if (count>0)
+    if (count > 0)
     {
         printf("%c", c);
         repeat(c, count-1);
@@ -37,7 +37,7 @@ void repeat(char c, int count)
  */
 void enumerate(char c)
 {
-    if (c <= 122 && c >= 97)
+    if (97 <= c && c <= 122)
     {
         printf("%c", c);
         enumerate(c-1);
@@ -74,7 +74,7 @@ void inverse_enumerate(char d, char l)
 void double_enumerate(char c)
 {
     char l = c;
-    if (c <= 122 && c >= 97)
+    if (97 <= c && c <= 122)
     {
         enumerate(c);
         inverse_enumerate(98, l);
