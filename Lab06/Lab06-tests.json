@@ -1,0 +1,65 @@
+{
+  "test_cases":[
+    {   
+      "id":1,
+      "time_out":10,
+      "input":"6\n",
+      "output":"Enter 1 for finding frequency of an element in an array\nEnter 2 for binary to hexadecimal conversion\nEnter any other character to exit\n"
+    },
+    {   
+      "id":2,
+      "time_out":10,
+      "input":"1\n6\ne r r e e e\ne\n",
+      "output":"Enter 1 for finding frequency of an element in an array\nEnter 2 for binary to hexadecimal conversion\nEnter any other character to exit\nEnter the length of the character array: Enter the elements of the character array separated by space: Enter the character frequency of which is to be found: Frequency is: 4\n"
+    },
+    {   
+      "id":3,
+      "time_out":10,
+      "input":"1\n6\ne r r e e e\nk\n",
+      "output":"Enter 1 for finding frequency of an element in an array\nEnter 2 for binary to hexadecimal conversion\nEnter any other character to exit\nEnter the length of the character array: Enter the elements of the character array separated by space: Enter the character frequency of which is to be found: Frequency is: 0\n"
+    },
+    {   
+      "id":4,
+      "time_out":10,
+      "input":"1\n3\n1 1 1\n1\n",
+      "output":"Enter 1 for finding frequency of an element in an array\nEnter 2 for binary to hexadecimal conversion\nEnter any other character to exit\nEnter the length of the character array: Enter the elements of the character array separated by space: Enter the character frequency of which is to be found: Frequency is: 3\n"
+    },
+    {   
+      "id":5,
+      "time_out":10,
+      "input":"2\n6\n0 0 0 0 0 0\n",
+      "output":"Enter 1 for finding frequency of an element in an array\nEnter 2 for binary to hexadecimal conversion\nEnter any other character to exit\nEnter the length of binary number: Enter the binary number space separated (MSB first): 00\n"
+    },
+    {   
+      "id":6,
+      "time_out":10,
+      "input":"2\n8\n1 1 0 1 0 0 1 0\n",
+      "output":"Enter 1 for finding frequency of an element in an array\nEnter 2 for binary to hexadecimal conversion\nEnter any other character to exit\nEnter the length of binary number: Enter the binary number space separated (MSB first): D2\n"
+    },
+    {   
+      "id":7,
+      "time_out":10,
+      "input":"2\n10\n1 0 1 0 0 1 0 0 1 1\n",
+      "output":"Enter 1 for finding frequency of an element in an array\nEnter 2 for binary to hexadecimal conversion\nEnter any other character to exit\nEnter the length of binary number: Enter the binary number space separated (MSB first): 293\n"
+    },
+    {   
+      "id":8,
+      "time_out":10,
+      "input":"2\n3\n1 1 1\n",
+      "output":"Enter 1 for finding frequency of an element in an array\nEnter 2 for binary to hexadecimal conversion\nEnter any other character to exit\nEnter the length of binary number: Enter the binary number space separated (MSB first): 7\n"
+    },
+    {   
+      "id":9,
+      "time_out":10,
+      "input":"2\n11\n0 1 1 1 1 1 1 0 1 1 1\n",
+      "output":"Enter 1 for finding frequency of an element in an array\nEnter 2 for binary to hexadecimal conversion\nEnter any other character to exit\nEnter the length of binary number: Enter the binary number space separated (MSB first): 3F7\n"
+    },
+    {   
+      "id":10,
+      "time_out":10,
+      "input":"2\n12\n1 1 1 0 1 0 1 0 1 0 1 1\n",
+      "output":"Enter 1 for finding frequency of an element in an array\nEnter 2 for binary to hexadecimal conversion\nEnter any other character to exit\nEnter the length of binary number: Enter the binary number space separated (MSB first): EAB\n"
+    }
+
+  ]
+}
