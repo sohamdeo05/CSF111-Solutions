@@ -4,5 +4,3 @@
 4. Solutions to lab specific parts are inside their respective folders.
 5. ```LabXX-tests.json``` are the test cases used for practice.
 6. ```LabXX-tests_final.json``` are the test cases used to grade the code.
-
-Only for reference please do not duplicate.
